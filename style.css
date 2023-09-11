@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 400px;
+  width: 450px;
+  margin: auto;
+}
+
+.card {
+  height: 550px;
+  width: 500px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  color: white;
+  margin-bottom: 50 auto 0;
+  border-radius: 20px;
+  padding: 40 35px;
+  text-align: center;
+}
+
+.search {
+  width: 25 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  border: 0;
+  background: white;
+  color: black;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.search button {
+  border: 0;
+  background-color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.search button img {
+  width: 30px;
+}
+
+.weather-icon {
+  width: 170px;
+  margin: 30px;
+}
+
+.weather h1 {
+  font-size: 30px;
+  font-weight: px;
+}
+
+.Details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.search:hover>.Enter the City {
+  width: 0;
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  font-weight: 5000;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  display: none;
+}
